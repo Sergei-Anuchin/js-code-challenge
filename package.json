@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "bitcoin-address-validation": "^1.0.2",
+    "bootstrap": "^4.5.2",
+    "classnames": "^2.2.6",
+    "node-sass": "^4.14.1",
+    "react-bootstrap": "^1.3.0",
+    "validator": "^13.1.17"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}

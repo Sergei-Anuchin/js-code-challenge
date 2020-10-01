@@ -5,7 +5,6 @@
   <title>Fancy Form</title>
 
   <!-- You may add more stuff here -->
-  <script src="script.js"></script>
   <link href="style.css" rel="stylesheet" />
 </head>
 
@@ -15,15 +14,20 @@
   <form onsubmit="return !1">
     <label for="input-address">Bitcoin Address</label>
     <input id="input-address" placeholder="16q4PinynazaMYfv24juNLkbjkDQxJo2dc" />
+    <label for="input-address" class="error">Bitcoin Address is wrong</label>
 
     <label for="input-amount">Amount to send</label>
     <input id="input-amount" placeholder="0.0000" />
+    <label for="input-amount" class="error">Amount is wrong</label>
 
     <label for="input-otp">OTP Authentication</label>
     <input type="number" id="input-otp" placeholder="SMS OTP" />
+    <label for="input-otp" class="error">OTP is wrong</label>
 
     <button>SEND BTC</button>
   </form>
+  <script src="bitcoin-address-validation"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
