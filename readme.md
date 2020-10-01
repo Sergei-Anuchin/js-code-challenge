@@ -16,6 +16,8 @@ You can either provide a link to a online repository, attach the solution in you
 We're cool as long as we can view your solution without any pain.
 
 ## How to serve react app
+```
 cd src/fancy_form/fancy
 yarn install
 yarn start
+```
